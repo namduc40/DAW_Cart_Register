@@ -7,8 +7,7 @@ using System.Web;
 namespace DO_AN_WEB.Models
 {
     public class Register
-    {
-        
+    {       
         [Display(Name = "Email")]
         [Required(ErrorMessage ="Yêu cầu nhập Email")]
         public string Email { get; set; }
